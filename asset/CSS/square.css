@@ -1,0 +1,13 @@
+.toto{
+	width: 100px;
+	height: 100px;
+
+	background: red;
+}
+
+h1{
+	font-family: verdana;
+	font-size: 20px;
+	color: blue;
+	text-decoration: underline;
+}
