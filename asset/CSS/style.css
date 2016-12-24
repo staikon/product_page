@@ -1,0 +1,46 @@
+@font-face {
+	font-family: "roboto";
+	src : url(Roboto);
+}
+
+body {
+	padding: 50px;
+	background: #c8cfdc;
+}
+
+#bg_top {
+	height: 700px;
+	width: 100%;
+	background: white;
+}
+
+#header {
+	overflow: hidden;
+}
+
+#header img {
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	height: 28px;
+	width: 20px;
+	padding: 25px 25px;
+	background: #0089cf;
+}
+
+#header ul {
+	float: left;
+	font-family: "roboto";
+	margin-top: 50px;
+}
+
+#header ul li {
+	text-align: center;
+	display: inline;
+	padding: 20px;
+}
+
+#header ul li a {
+	text-decoration: none;
+	color: black;
+}
