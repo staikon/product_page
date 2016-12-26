@@ -1,0 +1,121 @@
+@font-face {
+	font-family: "roboto";
+	src : url(Roboto);
+}
+
+body {
+	margin: 50px 50px 0px 50px;
+	background: #c8cfdc;
+}
+
+#header {
+	overflow: hidden;
+	height: 90px;
+	width: 100%;
+	background: white;
+}
+
+#header .left img {
+	float: left;
+	margin: 20px 20px;
+	height: 50px;
+	width: 50px;
+}
+
+#header .left ul {
+	float: left;
+	font-family: "roboto";
+	margin-top: 35px;
+	margin-left: -50px;
+}
+
+#header .left ul li {
+	display: inline;
+	padding: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#header .left ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+#header .left ul li a:hover {
+	color: #44a8dc;
+	border-bottom: solid 4px #44a8dc;
+    display: inline;
+    padding-bottom: 30px;
+}
+
+#header .right ul {
+	float: right;
+	font-family: "roboto";
+	margin-top: 35px;
+	margin-right: 28px;
+}
+
+#header .right ul li {
+	display: inline;
+	padding: 30px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#header .right ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+#header .right ul li:nth-last-child(3) {
+	background: url("../img/header/item_3.png") no-repeat left center;
+}
+
+#header .right ul li:nth-last-child(2) {
+	background: url("../img/header/icon.png") no-repeat left center;
+}
+
+#header .right ul li span {
+	color: blue;
+}
+
+#header .right ul li:nth-last-child(1) {
+	background: url("../img/header/item_5.png") no-repeat left center;
+}
+
+#top {
+	height: 610px;
+	width: 100%;
+	background: white;
+}
+
+#top #nike img {
+	float: left;
+	margin-top: 150px;
+	margin-left: 120px;
+	width: 45%;
+	height: auto;
+}
+
+#top #coeur {
+	background-color: white;
+	float: right;
+	margin-top: 58px;
+	margin-right: 380px;
+	width: 50px;
+	height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
