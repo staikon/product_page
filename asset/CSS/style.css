@@ -4,43 +4,164 @@
 }
 
 body {
-	padding: 50px;
+	margin: 50px 50px 0px 50px;
 	background: #c8cfdc;
-}
-
-#bg_top {
-	height: 700px;
-	width: 100%;
-	background: white;
 }
 
 #header {
 	overflow: hidden;
+	height: 90px;
+	width: 100%;
+	background: white;
 }
 
-#header img {
+#header .left img {
 	float: left;
-	margin-left: 20px;
-	margin-top: 20px;
-	height: 28px;
-	width: 20px;
-	padding: 25px 25px;
-	background: #0089cf;
+	margin: 20px 20px;
+	height: 50px;
+	width: 50px;
 }
 
-#header ul {
+#header .left ul {
 	float: left;
 	font-family: "roboto";
-	margin-top: 50px;
+	margin-top: 35px;
+	margin-left: -50px;
 }
 
-#header ul li {
-	text-align: center;
+#header .left ul li {
 	display: inline;
 	padding: 20px;
+	font-size: 14px;
+	font-weight: bold;
 }
 
-#header ul li a {
+#header .left ul li a {
 	text-decoration: none;
 	color: black;
 }
+
+#header .left ul li a:hover {
+	color: #44a8dc;
+	border-bottom: solid 4px #44a8dc;
+    display: inline;
+    padding-bottom: 30px;
+}
+
+#header .right ul {
+	float: right;
+	font-family: "roboto";
+	margin-top: 35px;
+	margin-right: 28px;
+}
+
+#header .right ul li {
+	display: inline;
+	padding: 30px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#header .right ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+#header .right ul li:nth-last-child(3) {
+	background: url("../img/header/item_3.png") no-repeat left center;
+}
+
+#header .right ul li:nth-last-child(2) {
+	background: url("../img/header/icon.png") no-repeat left center;
+}
+
+#header .right ul li span {
+	color: blue;
+}
+
+#header .right ul li:nth-last-child(1) {
+	background: url("../img/header/item_5.png") no-repeat left center;
+}
+
+#top {
+	height: 610px;
+	width: 100%;
+	background: white;
+	overflow: hidden;
+}
+
+#top #nike img {
+	float: left;
+	margin-top: 150px;
+	margin-left: 135px;
+	width: 50%;
+	height: auto;
+}
+
+#top #coeur {
+	background-color: white;
+	float: right;
+	margin-top: 58px;
+	margin-right: 305px;
+	width: 50px;
+	height: 50px;
+}
+
+#top #text {
+	float: left;
+	margin-left: 100px;
+	margin-top: 43px;
+	font-family: "roboto";
+}
+
+#top #text p:nth-last-child(7) {
+	font-size: 17px;
+	color: #333333;
+}
+
+#top #text p:nth-last-child(6) {
+	font-size: 24px;
+	color: #333333;
+}
+
+#top #text p:nth-last-child(5) {
+	font-size: 12px;
+	color: #989898;
+}
+
+#top #text p:nth-last-child(4) {
+	font-size: 10px;
+	color: #989898;
+}
+
+#top #text #color {
+	color: #429cd6;
+}
+
+#top #text p:nth-last-child(1) {
+	font-size: 10px;
+	color: #989898;
+}
+
+#top #text img {
+	display: inline;
+	height: 80px;
+	width: 80px;
+}
+
+#top #size {
+	float: right;
+	margin-right: 304px;
+}
+
+#top #size ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	line-height: 40px;
+}
+
+
+
+
+
