@@ -189,6 +189,38 @@ body {
 	margin-left: 10px;
 }
 
+#bg2 {
+	height: 1320px;
+	width: 100%;
+}
+
+#bg2 #feat {
+	background: url("../img/bg_2/feat.png") no-repeat;
+	height: 660px;
+	width: 100%;
+	float: left;
+}
+	
+#bg2 #feat p:nth-last-child(2) {
+	margin-top: 260px;
+	margin-left: 52px;
+	color: #ffffff;
+	font-size: 22px;
+
+}
+
+#bg2 #feat p:nth-last-child(1) {
+	margin-top: 30px;
+	margin-left: 52px;
+	color: #ffffff;
+	font-size: 13px;
+	font-family: helvetica;
+}
+
+
+
+
+
 
 
 
